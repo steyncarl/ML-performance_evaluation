@@ -9,7 +9,7 @@ from sklearn import svm
 import pandas as pd
 
 
-data = pd.read_csv("/home/cedric/Documents/Projects/Numerai/November/data/train.csv")
+data = pd.read_csv("./train.csv")
 data = np.array(data)
 X = data[:,0:20]
 y = data[:,21]
